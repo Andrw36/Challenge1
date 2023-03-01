@@ -1,0 +1,93 @@
+*{
+    background: #E9ECF8;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+.Logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 8%;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+.seccionCentral{
+    border: none;
+    text-transform: lowercase;
+    margin-top: 30px;
+    height: 400px;
+    padding: 5px;
+    
+}
+::placeholder{color: #072B61;}
+    .seccionCentral:focus{
+        outline:none;
+    }
+.informacion{
+    color: #495057;
+    font-size:18px;
+}
+.seccionMensaje{
+    height: 600px;
+    background: #FFFFFF;
+    background-image:url(../Challenge1/imagenes/Muneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 95px;
+    margin-top: 20px;
+    padding-left: 30px;
+    position: fixed;
+    color: #072B61;
+    border: none;
+    border-radius: 20px;
+}
+.seccionMensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+.botonEncriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    
+}
+.botonDesencriptar{
+        
+    background: #D8DFE8;
+    border: 1px solid #072B61;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+   
+    }
+.copiar{
+    
+position: absolute;
+width: 336px;
+height: 67px;
+margin-left: 120px;
+margin-top: 500px;
+cursor: pointer;
+color: #0A3871;
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+}
